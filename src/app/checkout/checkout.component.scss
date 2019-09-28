@@ -1,0 +1,237 @@
+.card{
+    box-shadow: 0 6px 6px rgba(#000, 0.0);
+    transition: 200ms;
+    background: #fff;
+    
+    .card__title{
+      display: flex;
+      align-items: center;
+      padding: 30px 40px;
+      
+      h3{
+        flex: 0 1 200px;
+        text-align: right;
+        margin: 0;
+        color: #252525;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        text-transform: uppercase;
+      }
+      
+      .icon{
+        flex: 1 0 10px;
+        background: #115dd8;
+        color: #fff;
+        padding: 10px 10px;
+        transition: 200ms;
+        
+        > a{
+          color: #fff;
+        }
+        
+        &:hover{
+          background: #252525;
+        }
+      }
+    }
+    
+    .card__body{
+      padding: 0 40px;
+      display: flex;
+      flex-flow: row no-wrap;
+      margin-bottom: 25px;
+      padding-bottom: 100px;
+      
+      > .half{
+        box-sizing: border-box;
+        padding: 0 15px;
+        flex: 1 0 50%;
+      }
+      
+      .featured_text{
+        h1{
+          margin: 0;
+          padding: 0;
+          font-weight: 800;
+          font-family: "Montserrat", sans-serif;
+          font-size: 64px;
+          line-height: 50px;
+          color: #181e28;
+        }
+        
+        p{
+          margin: 0;
+          padding: 0;
+          
+          &.sub{
+            font-family: "Montserrat", sans-serif;
+            font-size: 26px;
+            text-transform: uppercase;
+            color: #686e77;
+            font-weight: 300;
+            margin-bottom: 5px;
+          }
+          
+          &.price{
+            font-family: "Fjalla One", sans-serif;
+            color: #252525;
+            font-size: 26px;
+          }
+        }
+      }
+      
+      .image{
+        padding-top: 15px;
+        width: 100%;
+        
+        img{
+          display: block;
+          max-width: 100%;
+          height: auto;
+        }
+      }
+      
+      .description{
+        margin-bottom: 25px;
+        
+        p{
+          margin: 0;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 300;
+          line-height: 27px;
+          font-size: 16px;
+          color: #555;
+        }
+      }
+      
+      span.stock{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        color: #a1cc16;
+      }
+    }
+    .button {
+      background-color: rgb(100, 40, 255);
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    #heading{
+        padding-left:10px;
+    }
+    
+    #thumb{
+        width:100px;
+        height:100px;
+    }
+    #mytable{
+        
+        color: blue;
+        
+        padding-top: 15px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 15px;
+        border-radius:15px;
+    }
+    #padding{
+        padding-left: 50px;
+    }
+    
+    #main{
+        background-color: #efefef;
+    }
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
