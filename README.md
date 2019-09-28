@@ -2,6 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
 
+## Sprint1
+- Created primary pages for:
+    * Sign-In
+    * Home Page
+    * Products
+
+## Sprint2
+-Created additional components:
+    * Product Details (routed via Products)
+    * Order Completed Page (routed via Checkout)
+    * Checkout Form to collect user information and shipping address (routed via Cart)
+    * Cart (pretty obvious component)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
