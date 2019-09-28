@@ -9,7 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     * Products
 
 ## Sprint2
--Created additional components:
+- Created additional components:
     * Product Details (routed via Products)
     * Order Completed Page (routed via Checkout)
     * Checkout Form to collect user information and shipping address (routed via Cart)
